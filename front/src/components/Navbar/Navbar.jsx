@@ -14,7 +14,7 @@ const Navbar = ({ userLogged, setUserLogged }) => {
       <header>
         <nav>
           <div className={styles.navbar}>
-            <Logo />
+            <Logo/>
             <ul className={styles.navegacion}>
               <li className={styles.About}>
                 <a href="#">About</a>

@@ -1,0 +1,39 @@
+.body{
+  position: relative;
+  min-height: 100vh;
+}
+
+section {
+  padding: 80px 0px 80px 0px;
+}
+
+.contenedor {
+  padding: 80px 0px 80px 0px;
+  background-color: rgb(249, 250, 251);
+  max-height: 500px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+.sectionOne p {
+  font-size: 1.125rem;
+  margin-top: 16px;
+  max-width: 600px;
+}
+
+.img {
+  width: 313px;
+  height: 313px;
+}
+
+.contenedorDeCards {
+  background-color: rgb(249, 250, 251);
+}

@@ -1,0 +1,60 @@
+
+.body{
+  position: relative;
+  min-height: 100vh;
+}
+  
+  .contenedor {
+    background-color: rgb(249, 250, 251);
+    max-height: 500px;
+    padding: 80px 0px 80px 0px;
+
+  }
+  
+  .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+  }
+  
+
+  h1 {
+    font-size: 2.25rem;
+  }
+  
+  .sectionOne p {
+    font-size: 1.125rem;
+    margin-top: 16px;
+    max-width: 600px;
+  }
+
+  .buttonLogin{
+    margin-top: 32px;
+  }
+  
+  .button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 7px 12px 7px 12px;
+    border: solid 1.5px var(--primary-color);
+  }
+  
+  .contenedorDeCards {
+    background-color: rgb(249, 250, 251);
+  }
+  
+  .contenedorGeneral {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  
+  h2{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

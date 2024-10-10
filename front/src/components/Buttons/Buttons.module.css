@@ -1,0 +1,35 @@
+a{
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.buttonsContainer{
+    display: flex;
+}
+
+.ButtonRegister{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 7px 12px 7px 12px;
+    border: solid 1.5px var(--primary-color);
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.ButtonLogin{
+    background-color: white;
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+    padding: 7px 12px 7px 12px;
+    border: solid 1.5px var(--primary-color);
+    text-decoration: none;
+}
+
+.close{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 7px 12px 7px 12px;
+    border: solid 1.5px var(--primary-color);
+    margin-right: 1rem;
+    text-decoration: none;
+}

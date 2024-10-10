@@ -1,0 +1,80 @@
+form{
+  position: relative;
+  min-height: 100vh;
+}
+
+
+section {
+  padding: 0;
+}
+
+.contenedor {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px; 
+  background-color: #fff; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  margin-top: 5rem;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.subtitulo {
+  font-size: 14px;
+  margin: 6px 0px 0px;
+}
+
+.sectionRegister {
+  padding: 24px;
+}
+
+.Container {
+  padding: 24px;
+}
+
+.divContainerPrincipal {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  gap: 1rem;
+  margin-top: 16px;
+}
+
+input {
+  display: flex;
+  background-color: white;
+  margin-top: 8px;
+  padding: 8px 12px 8px 12px;
+  border: solid 1.5px;
+  border-color: rgba(192, 192, 192, 0.39);
+  border-radius: 10px;
+  width: 100%;
+}
+
+.divContainerSecondary {
+  margin-top: 16px;
+}
+
+.divContainerTertiary{
+    padding: 24px;
+}
+
+.register{
+    width: 100%;
+    padding: 8px 16px 8px 16px;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+}
+
+.repeatPassword{
+  margin-top: 25px;
+}
+
+.error{
+  font-size: 12.5px;
+  color: rgb(216, 13, 13);
+}

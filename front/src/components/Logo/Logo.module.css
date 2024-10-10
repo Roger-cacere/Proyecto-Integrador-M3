@@ -1,0 +1,15 @@
+.contenedorLogo{
+    display: flex;
+    align-items: center;
+    color: rgb(5, 4, 4);
+}
+
+.contenedorLogo .dollar{
+    margin-right: 0.5rem;
+}
+
+.contenedorLogo a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+}

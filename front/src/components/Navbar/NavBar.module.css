@@ -1,0 +1,39 @@
+
+*{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.navbar a:active{
+    color: var(--text-color);
+}
+
+.navbar {
+    background-color: rgb(222, 232, 249);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px 12px 24px;
+    font-size: 14px;
+    line-height: 1.25rem;
+    font-weight: 500;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.navegacion a {
+    text-decoration: none;
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+}
